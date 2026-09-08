@@ -21,6 +21,7 @@
 #include "ipcc.h"
 #include "rf.h"
 #include "rtc.h"
+#include "usart.h"
 #include "usb_device.h"
 #include "gpio.h"
 
@@ -59,6 +60,11 @@ void PeriphCommonClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+int __io_putchar(int ch)
+{
+  HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 100);
+  return ch;
+}
 
 /* USER CODE END 0 */
 
@@ -101,8 +107,10 @@ int main(void)
   MX_GPIO_Init();
   MX_RTC_Init();
   MX_USB_Device_Init();
+  MX_USART1_UART_Init();
   MX_RF_Init();
   /* USER CODE BEGIN 2 */
+  printf("UART1 printf test\r\n");
 
   /* USER CODE END 2 */
 

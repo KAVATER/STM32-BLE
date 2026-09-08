@@ -637,8 +637,9 @@ SVCCTL_UserEvtFlowStatus_t SVCCTL_App_Notification(void *pckt)
                       break;
 
                    // default:
-                      //comment out the above default statement
+
                       /* USER CODE BEGIN adtype_default */
+                      //remove the above default statement
                     case AD_TYPE_COMPLETE_LOCAL_NAME:
                     case AD_TYPE_SHORTENED_LOCAL_NAME:
                     name_len = adlength -1;
@@ -650,7 +651,6 @@ SVCCTL_UserEvtFlowStatus_t SVCCTL_App_Notification(void *pckt)
 
                     default:
                       /* USER CODE END adtype_default */
-
                       break;
                   } /* end switch adtype */
                   k += adlength + 1;

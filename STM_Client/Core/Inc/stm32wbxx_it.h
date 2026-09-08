@@ -56,6 +56,7 @@ void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
 void RTC_WKUP_IRQHandler(void);
+void EXTI4_IRQHandler(void);
 void USB_LP_IRQHandler(void);
 void USART1_IRQHandler(void);
 void IPCC_C1_RX_IRQHandler(void);

@@ -66,6 +66,14 @@ int __io_putchar(int ch)
   return ch;
 }
 
+volatile uint8_t flag = 0;
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+    if (GPIO_Pin == GPIO_PIN_4)
+    {
+    	flag = 1 ;
+    }
+}
 /* USER CODE END 0 */
 
 /**
@@ -123,10 +131,14 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  if(flag)
+	  {
+	flag = 0;
     /* USER CODE END WHILE */
-    MX_APPE_Process();
-
+   MX_APPE_Process();
+printf("------------------------------------------\r\n");
     /* USER CODE BEGIN 3 */
+	  }
   }
   /* USER CODE END 3 */
 }
@@ -233,6 +245,7 @@ void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
+  printf("!! Error_Handler() reached - execution is about to hang here !!\r\n");
   __disable_irq();
   while (1)
   {

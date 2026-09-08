@@ -8,5 +8,6 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BLE_Notify\ Debug/activeLaunchM
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BLE_Notify\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BLE_p2pServer\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BLE_p2pServer\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HID\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM_Client\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM_Client\ Debug/activeLaunchTarget=null\:---

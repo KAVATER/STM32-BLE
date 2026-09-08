@@ -4,16 +4,16 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Mynotify_Notification_Status"/>
+		<item key="selection" value="aci_gatt_update_char_valu"/>
 		<list key="findhistory">
+			<item value="myT"/>
+			<item value="int main"/>
+			<item value="myTask"/>
 			<item value="CUSTOM_CONN_HANDLE_EVT "/>
 			<item value="Mynotify_Notification_Status"/>
 			<item value="Custom_Mynotify_Update_Char"/>
-			<item value="myTask"/>
 			<item value="Custom_App_Context"/>
 			<item value="Custom_STM_App_Notification"/>
-			<item value="myTas"/>
-			<item value="    Custom_STM_App_Update_Char"/>
 		</list>
 		<list key="replacehistory">
 		</list>

@@ -3809,3 +3809,1261 @@ COM6
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-09-07 18:02:06.110
 !MESSAGE Existing sessions are:
+!SESSION 2026-09-07 18:44:54.879 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-09-07 18:45:19.331
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-09-07 18:45:24.817
+!MESSAGE Log4j2 initialized with config file D:\STM32 BLE\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-09-07 18:45:28.882
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kushp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-09-07 18:45:31.153
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-07 18:45:33.551
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.940
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.06 GiB / 15.73 GiB (89%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    152.55 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.99 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.36 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜    20.00 KiB / 3.03 MiB (1%) - FAT [External]
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇   ● ● ● ● ● ● ● ●
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM9
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.941
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.942
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.942
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.943
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.943
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.944
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.944
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.06 GiB / 15.73 GiB (89%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.945
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    152.55 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.945
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.99 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.946
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.946
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.36 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.947
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜    20.00 KiB / 3.03 MiB (1%) - FAT [External]
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.947
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.948
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.948
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.949
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.949
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.950
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.951
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 18:45:33.951
+!MESSAGE port: COM6
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2026-09-07 18:51:15.740
+!MESSAGE Project 'Spandan_Neo_BLE' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Spandan_Neo_BLE)[372]: java.lang.Exception: Project 'Spandan_Neo_BLE' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:445)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-09-07 18:51:15.741
+!MESSAGE Project 'Spandan_Neo_BLE' is not open.
+!STACK 0
+java.lang.Exception: Project 'Spandan_Neo_BLE' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:445)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2026-09-07 18:51:15.793
+!MESSAGE Project 'Spandan_Neo_BLE' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Spandan_Neo_BLE)[372]: java.lang.Exception: Project 'Spandan_Neo_BLE' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:445)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-09-07 18:51:15.794
+!MESSAGE Project 'Spandan_Neo_BLE' is not open.
+!STACK 0
+java.lang.Exception: Project 'Spandan_Neo_BLE' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:445)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-07 18:51:15.809
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: attempt to set description for a project which does not exist or not open
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setCurrentDescription(XmlProjectDescriptionStorage.java:382)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setLoaddedDescriptionOnLoad(XmlProjectDescriptionStorage.java:360)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:258)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+!SUBENTRY 1 org.eclipse.cdt.core 4 -1 2026-09-07 18:51:15.810
+!MESSAGE attempt to set description for a project which does not exist or not open
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2026-09-07 18:51:58.223
+!MESSAGE Project 'BLE_Notify' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/BLE_Notify)[372]: java.lang.Exception: Project 'BLE_Notify' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:445)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-09-07 18:51:58.224
+!MESSAGE Project 'BLE_Notify' is not open.
+!STACK 0
+java.lang.Exception: Project 'BLE_Notify' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:445)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2026-09-07 18:51:58.252
+!MESSAGE Project 'BLE_Notify' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/BLE_Notify)[372]: java.lang.Exception: Project 'BLE_Notify' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:445)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-09-07 18:51:58.252
+!MESSAGE Project 'BLE_Notify' is not open.
+!STACK 0
+java.lang.Exception: Project 'BLE_Notify' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:445)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-07 18:51:58.270
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: attempt to set description for a project which does not exist or not open
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setCurrentDescription(XmlProjectDescriptionStorage.java:382)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setLoaddedDescriptionOnLoad(XmlProjectDescriptionStorage.java:360)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:258)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+!SUBENTRY 1 org.eclipse.cdt.core 4 -1 2026-09-07 18:51:58.270
+!MESSAGE attempt to set description for a project which does not exist or not open
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-09-07 18:51:58.636
+!MESSAGE Indexed 'BLE_Client' (68 sources, 265 headers) in 4.62 sec: 28,292 declarations; 100,538 references; 23 unresolved inclusions; 1,315 syntax errors; 3,046 unresolved names (2.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-09-07 19:03:25.613
+!MESSAGE Indexed 'BLE_Client' (64 sources, 204 headers) in 2.35 sec: 21,856 declarations; 82,271 references; 3 unresolved inclusions; 46 syntax errors; 374 unresolved names (0.36%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.956
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    15.45 GiB / 15.73 GiB (98%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    152.49 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    104.00 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.36 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.994
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.995
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.995
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.995
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.995
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.996
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.996
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    15.45 GiB / 15.73 GiB (98%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.996
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    152.49 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.996
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    104.00 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.996
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.996
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.36 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.997
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.997
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.997
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.997
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.997
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.997
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.998
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-07 19:13:40.998
+!MESSAGE port: COM6
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-09-07 19:13:48.911
+!MESSAGE Indexed 'STM_Client' (66 sources, 309 headers) in 3.18 sec: 31,806 declarations; 103,328 references; 23 unresolved inclusions; 1,247 syntax errors; 3,097 unresolved names (2.2%)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2026-09-07 19:13:52.741
+!MESSAGE Project 'BLE_Notify' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/BLE_Notify)[372]: java.lang.Exception: Project 'BLE_Notify' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:445)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2026-09-07 19:13:52.741
+!MESSAGE Project 'BLE_Notify' is not open.
+!STACK 0
+java.lang.Exception: Project 'BLE_Notify' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:192)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:445)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.cacheNaturesIdsUsedOnCache(ConfigurationDataProvider.java:383)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:580)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-09-07 19:13:52.746
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: attempt to set description for a project which does not exist or not open
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setCurrentDescription(XmlProjectDescriptionStorage.java:382)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.setLoaddedDescriptionOnLoad(XmlProjectDescriptionStorage.java:360)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:258)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.newui.ManageConfigSelector.getProjects(ManageConfigSelector.java:104)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.hasManagedCdtProjectSelection(HasManagedCdtProjectSelection.java:43)
+	at org.eclipse.cdt.internal.ui.workingsets.HasManagedCdtProjectSelection.test(HasManagedCdtProjectSelection.java:33)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:76)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:106)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:387)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.deactivate(EclipseContext.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerHideProcessor.lambda$1(MenuManagerHideProcessor.java:140)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+!SUBENTRY 1 org.eclipse.cdt.core 4 -1 2026-09-07 19:13:52.746
+!MESSAGE attempt to set description for a project which does not exist or not open
+!SESSION 2026-09-08 11:09:35.511 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-09-08 11:10:13.646
+!MESSAGE Log4j2 initialized with config file D:\STM32 BLE\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-09-08 11:10:19.616
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kushp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-09-08 11:10:23.833
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.673
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    9.85 GiB / 15.73 GiB (63%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    152.78 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    104.00 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.36 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.673
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.674
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.674
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.674
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.674
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.675
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.675
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    9.85 GiB / 15.73 GiB (63%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.675
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    152.78 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.675
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    104.00 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.675
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.676
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.36 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.676
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.676
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.677
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.677
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.677
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:10:25.677
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-08 11:10:26.337
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.751
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    12.20 GiB / 15.73 GiB (78%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.16 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    104.01 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.38 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜    20.00 KiB / 32.00 KiB (62%) - FAT [External]
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇   ● ● ● ● ● ● ● ●
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM9
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.789
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.789
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.790
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.790
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.790
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.790
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.790
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    12.20 GiB / 15.73 GiB (78%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.791
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.16 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.791
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    104.01 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.791
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.791
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.38 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.791
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜    20.00 KiB / 32.00 KiB (62%) - FAT [External]
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.792
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.792
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.792
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.792
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.792
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.792
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 11:45:43.792
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.248
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.03 GiB / 15.73 GiB (89%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.81 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    104.01 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜    24.00 KiB / 32.00 KiB (75%) - FAT [External]
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇   ● ● ● ● ● ● ● ●
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM9
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.282
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.282
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.283
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.283
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.283
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.283
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.283
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.03 GiB / 15.73 GiB (89%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.283
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.81 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.284
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    104.01 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.284
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.284
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.284
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜    24.00 KiB / 32.00 KiB (75%) - FAT [External]
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.284
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.284
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.285
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.285
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.285
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.285
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.285
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:15:57.285
+!MESSAGE port: COM6
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.632
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    13.98 GiB / 15.73 GiB (89%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.84 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    104.07 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.633
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.633
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.633
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.633
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.634
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.634
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.634
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    13.98 GiB / 15.73 GiB (89%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.634
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.84 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.634
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    104.07 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.634
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.634
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.636
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.636
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.636
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.636
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.636
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.636
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.636
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-08 12:48:03.636
+!MESSAGE port: COM6

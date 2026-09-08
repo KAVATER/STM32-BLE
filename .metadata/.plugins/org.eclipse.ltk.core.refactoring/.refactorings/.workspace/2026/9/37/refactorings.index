@@ -2,3 +2,7 @@
 1788778458187	Copy Project 'BLE_1'
 1788778467508	Delete resource 'BLE_Notify/Debug'
 1788778473947	Delete resource 'BLE_Notify/BLE_1 Debug.launch'
+1788787313850	Copy Project 'BLE_Notify'
+1788787328504	Delete resource 'BLE_Client/BLE_Notify Debug.launch'
+1788787332005	Delete resource 'BLE_Client/Debug'
+1788788230198	Delete resource 'BLE_Client'

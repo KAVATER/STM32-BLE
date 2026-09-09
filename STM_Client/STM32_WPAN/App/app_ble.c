@@ -581,7 +581,7 @@ SVCCTL_UserEvtFlowStatus_t SVCCTL_App_Notification(void *pckt)
 
               /* search AD TYPE 0x09 (Complete Local Name) */
               /* search AD Type 0x02 (16 bits UUIDS) */
-              if (event_type == ADV_IND)
+              if ((event_type == ADV_IND) || (event_type == SCAN_RSP))
               {
                 /* ISOLATION OF BD ADDRESS AND LOCAL NAME */
 
@@ -948,7 +948,7 @@ static void Scan_Request(void)
     /* USER CODE BEGIN APP_BLE_CONNECTED_CLIENT */
 
     /* USER CODE END APP_BLE_CONNECTED_CLIENT */
-    result = aci_gap_start_general_discovery_proc(SCAN_P, SCAN_L, CFG_BLE_ADDRESS_TYPE, 1);
+    result = aci_gap_start_general_discovery_proc(SCAN_P, SCAN_L, CFG_BLE_ADDRESS_TYPE, 0); //by putting it to 0 we ask for more information
     if (result == BLE_STATUS_SUCCESS)
     {
     /* USER CODE BEGIN BLE_SCAN_SUCCESS */

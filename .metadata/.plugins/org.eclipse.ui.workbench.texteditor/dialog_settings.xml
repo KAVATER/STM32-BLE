@@ -4,16 +4,16 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="aci_gatt_update_char_valu"/>
+		<item key="selection" value="flag"/>
 		<list key="findhistory">
+			<item value="flag"/>
+			<item value="HCI_LE_ADVERTISING_REPORT_SUBEVT_CODE:"/>
+			<item value="user code begin private defines"/>
+			<item value="HCI_LE_ADVERTISING_REPORT_SUBEVT_CODE"/>
+			<item value="buffer"/>
+			<item value="aci_gap_start_general_discovery_proc"/>
 			<item value="myT"/>
 			<item value="int main"/>
-			<item value="myTask"/>
-			<item value="CUSTOM_CONN_HANDLE_EVT "/>
-			<item value="Mynotify_Notification_Status"/>
-			<item value="Custom_Mynotify_Update_Char"/>
-			<item value="Custom_App_Context"/>
-			<item value="Custom_STM_App_Notification"/>
 		</list>
 		<list key="replacehistory">
 		</list>

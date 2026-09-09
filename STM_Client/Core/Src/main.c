@@ -27,7 +27,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+	#include "stm32_seq.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -67,6 +67,7 @@ int __io_putchar(int ch)
 }
 
 volatile uint8_t flag = 0;
+volatile uint8_t debounce = 0;
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
     if (GPIO_Pin == GPIO_PIN_4)
@@ -74,6 +75,9 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     	flag = 1 ;
     }
 }
+extern  uint8_t seen_count;
+extern uint8_t seen_devices[10][6];
+extern uint8_t already_seen;
 /* USER CODE END 0 */
 
 /**
@@ -131,15 +135,24 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
-	  if(flag == 1)
+	  MX_APPE_Process();
+	  if(flag == 1 && debounce >= 10)
 	  {
-		  MX_APPE_Process();
-    /* USER CODE END WHILE */
+		   flag = 0;
+		   debounce = 0;
+	        printf("------------------------------------------\r\n");
 
-   printf("------------------------------------------\r\n");
-   flag = 0;
+    /* USER CODE END WHILE */
     /* USER CODE BEGIN 3 */
+           seen_count = 0;
+
+		   already_seen = 0;
+
+	      // printf("Scanning for NEW devices...\r\n");
+	        //MX_APPE_Process();
+	        // Start a fresh scan
+	        UTIL_SEQ_SetTask(1 << CFG_TASK_START_SCAN_ID, CFG_SCH_PRIO_0);
+
 	  }
   }
   /* USER CODE END 3 */

@@ -1,86 +1,13 @@
-11:48:13 **** Incremental Build of configuration Debug for project STM_Client ****
+15:09:06 **** Incremental Build of configuration Debug for project STM_Client ****
 make -j8 all 
 arm-none-eabi-gcc "../STM32_WPAN/App/app_ble.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32_WPAN/App/app_ble.d" -MT"STM32_WPAN/App/app_ble.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "STM32_WPAN/App/app_ble.o"
 ../STM32_WPAN/App/app_ble.c: In function 'APP_BLE_Init':
-../STM32_WPAN/App/app_ble.c:236:14: warning: unused variable 'ret' [-Wunused-variable]
-  236 |   tBleStatus ret = BLE_STATUS_INVALID_PARAMS;
-      |              ^~~
-../STM32_WPAN/App/app_ble.c: At top level:
-../STM32_WPAN/App/app_ble.c:1018:13: warning: 'Switch_OFF_GPIO' defined but not used [-Wunused-function]
- 1018 | static void Switch_OFF_GPIO()
-      |             ^~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: STM_Client.elf
- 
-arm-none-eabi-size  STM_Client.elf 
-arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
-   text	   data	    bss	    dec	    hex	filename
-  67496	   2609	   9911	  80016	  13890	STM_Client.elf
-Finished building: default.size.stdout
- 
-Finished building: STM_Client.list
- 
-11:48:49 **** Incremental Build of configuration Debug for project STM_Client ****
-make -j8 all 
-arm-none-eabi-size  STM_Client.elf 
-   text	   data	    bss	    dec	    hex	filename
-  67496	   2609	   9911	  80016	  13890	STM_Client.elf
-Finished building: default.size.stdout
- 
-12:18:35 **** Incremental Build of configuration Debug for project STM_Client ****
-make -j8 all 
-arm-none-eabi-gcc "../STM32_WPAN/App/app_ble.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32_WPAN/App/app_ble.d" -MT"STM32_WPAN/App/app_ble.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "STM32_WPAN/App/app_ble.o"
-../STM32_WPAN/App/app_ble.c: In function 'APP_BLE_Init':
-../STM32_WPAN/App/app_ble.c:236:14: warning: unused variable 'ret' [-Wunused-variable]
-  236 |   tBleStatus ret = BLE_STATUS_INVALID_PARAMS;
-      |              ^~~
-../STM32_WPAN/App/app_ble.c: At top level:
-../STM32_WPAN/App/app_ble.c:1018:13: warning: 'Switch_OFF_GPIO' defined but not used [-Wunused-function]
- 1018 | static void Switch_OFF_GPIO()
-      |             ^~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: STM_Client.elf
- 
-arm-none-eabi-size  STM_Client.elf 
-arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
-   text	   data	    bss	    dec	    hex	filename
-  67496	   2609	   9911	  80016	  13890	STM_Client.elf
-Finished building: default.size.stdout
- 
-Finished building: STM_Client.list
- 
-12:28:18 **** Incremental Build of configuration Debug for project STM_Client ****
-make -j8 all 
-arm-none-eabi-size  STM_Client.elf 
-   text	   data	    bss	    dec	    hex	filename
-  67496	   2609	   9911	  80016	  13890	STM_Client.elf
-Finished building: default.size.stdout
- 
-12:33:42 **** Incremental Build of configuration Debug for project STM_Client ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: STM_Client.elf
- 
-arm-none-eabi-size  STM_Client.elf 
-arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
-   text	   data	    bss	    dec	    hex	filename
-  67496	   2609	   9911	  80016	  13890	STM_Client.elf
-Finished building: default.size.stdout
- 
-Finished building: STM_Client.list
- 
-12:58:00 **** Incremental Build of configuration Debug for project STM_Client ****
-make -j8 all 
-arm-none-eabi-gcc "../STM32_WPAN/App/app_ble.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32_WPAN/App/app_ble.d" -MT"STM32_WPAN/App/app_ble.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "STM32_WPAN/App/app_ble.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../STM32_WPAN/App/app_ble.c: In function 'APP_BLE_Init':
-../STM32_WPAN/App/app_ble.c:236:22: warning: unused variable 'ret' [-Wunused-variable]
-  236 |           tBleStatus ret = BLE_STATUS_INVALID_PARAMS;
+../STM32_WPAN/App/app_ble.c:240:22: warning: unused variable 'ret' [-Wunused-variable]
+  240 |           tBleStatus ret = BLE_STATUS_INVALID_PARAMS;
       |                      ^~~
 ../STM32_WPAN/App/app_ble.c: At top level:
-../STM32_WPAN/App/app_ble.c:1026:21: warning: 'Switch_OFF_GPIO' defined but not used [-Wunused-function]
- 1026 |         static void Switch_OFF_GPIO()
+../STM32_WPAN/App/app_ble.c:1053:21: warning: 'Switch_OFF_GPIO' defined but not used [-Wunused-function]
+ 1053 |         static void Switch_OFF_GPIO()
       |                     ^~~~~~~~~~~~~~~
 arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: STM_Client.elf
@@ -88,12 +15,33 @@ Finished building target: STM_Client.elf
 arm-none-eabi-size  STM_Client.elf 
 arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
    text	   data	    bss	    dec	    hex	filename
-  67508	   2609	   9911	  80028	  1389c	STM_Client.elf
+  67752	   2609	  10215	  80576	  13ac0	STM_Client.elf
 Finished building: default.size.stdout
  
 Finished building: STM_Client.list
  
-12:59:07 **** Incremental Build of configuration Debug for project STM_Client ****
+15:09:14 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-size  STM_Client.elf 
+   text	   data	    bss	    dec	    hex	filename
+  67752	   2609	  10215	  80576	  13ac0	STM_Client.elf
+Finished building: default.size.stdout
+ 
+15:09:41 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-size  STM_Client.elf 
+   text	   data	    bss	    dec	    hex	filename
+  67752	   2609	  10215	  80576	  13ac0	STM_Client.elf
+Finished building: default.size.stdout
+ 
+15:09:57 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-size  STM_Client.elf 
+   text	   data	    bss	    dec	    hex	filename
+  67752	   2609	  10215	  80576	  13ac0	STM_Client.elf
+Finished building: default.size.stdout
+ 
+15:10:45 **** Incremental Build of configuration Debug for project STM_Client ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -102,12 +50,12 @@ Finished building target: STM_Client.elf
 arm-none-eabi-size  STM_Client.elf 
 arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
    text	   data	    bss	    dec	    hex	filename
-  67508	   2609	   9911	  80028	  1389c	STM_Client.elf
+  67752	   2609	  10215	  80576	  13ac0	STM_Client.elf
 Finished building: default.size.stdout
  
 Finished building: STM_Client.list
  
-13:00:20 **** Incremental Build of configuration Debug for project STM_Client ****
+15:53:15 **** Incremental Build of configuration Debug for project STM_Client ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -116,7 +64,136 @@ Finished building target: STM_Client.elf
 arm-none-eabi-size  STM_Client.elf 
 arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
    text	   data	    bss	    dec	    hex	filename
-  67508	   2609	   9911	  80028	  1389c	STM_Client.elf
+  67752	   2609	  10215	  80576	  13ac0	STM_Client.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM_Client.list
+ 
+15:54:38 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-gcc "../STM32_WPAN/App/app_ble.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32_WPAN/App/app_ble.d" -MT"STM32_WPAN/App/app_ble.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "STM32_WPAN/App/app_ble.o"
+../STM32_WPAN/App/app_ble.c: In function 'APP_BLE_Init':
+../STM32_WPAN/App/app_ble.c:240:22: warning: unused variable 'ret' [-Wunused-variable]
+  240 |           tBleStatus ret = BLE_STATUS_INVALID_PARAMS;
+      |                      ^~~
+../STM32_WPAN/App/app_ble.c: At top level:
+../STM32_WPAN/App/app_ble.c:1053:21: warning: 'Switch_OFF_GPIO' defined but not used [-Wunused-function]
+ 1053 |         static void Switch_OFF_GPIO()
+      |                     ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM_Client.elf
+ 
+arm-none-eabi-size  STM_Client.elf 
+arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
+   text	   data	    bss	    dec	    hex	filename
+  67752	   2609	  10215	  80576	  13ac0	STM_Client.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM_Client.list
+ 
+15:57:47 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM_Client.elf
+ 
+arm-none-eabi-size  STM_Client.elf 
+arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
+   text	   data	    bss	    dec	    hex	filename
+  67692	   2609	  10215	  80516	  13a84	STM_Client.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM_Client.list
+ 
+15:59:37 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM_Client.elf
+ 
+arm-none-eabi-size  STM_Client.elf 
+arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
+   text	   data	    bss	    dec	    hex	filename
+  67700	   2609	  10215	  80524	  13a8c	STM_Client.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM_Client.list
+ 
+16:02:06 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM_Client.elf
+ 
+arm-none-eabi-size  STM_Client.elf 
+arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
+   text	   data	    bss	    dec	    hex	filename
+  67752	   2609	  10215	  80576	  13ac0	STM_Client.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM_Client.list
+ 
+16:11:15 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM_Client.elf
+ 
+arm-none-eabi-size  STM_Client.elf 
+arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
+   text	   data	    bss	    dec	    hex	filename
+  67720	   2609	  10215	  80544	  13aa0	STM_Client.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM_Client.list
+ 
+16:13:20 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-gcc "../STM32_WPAN/App/app_ble.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"STM32_WPAN/App/app_ble.d" -MT"STM32_WPAN/App/app_ble.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "STM32_WPAN/App/app_ble.o"
+../STM32_WPAN/App/app_ble.c: In function 'APP_BLE_Init':
+../STM32_WPAN/App/app_ble.c:240:22: warning: unused variable 'ret' [-Wunused-variable]
+  240 |           tBleStatus ret = BLE_STATUS_INVALID_PARAMS;
+      |                      ^~~
+../STM32_WPAN/App/app_ble.c: At top level:
+../STM32_WPAN/App/app_ble.c:1053:21: warning: 'Switch_OFF_GPIO' defined but not used [-Wunused-function]
+ 1053 |         static void Switch_OFF_GPIO()
+      |                     ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM_Client.elf
+ 
+arm-none-eabi-size  STM_Client.elf 
+arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
+   text	   data	    bss	    dec	    hex	filename
+  67720	   2609	   9943	  80272	  13990	STM_Client.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM_Client.list
+ 
+16:26:52 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32wbxx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32wbxx_it.d" -MT"Core/Src/stm32wbxx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_it.o"
+../Core/Src/stm32wbxx_it.c: In function 'SysTick_Handler':
+../Core/Src/stm32wbxx_it.c:193:6: error: 'flag' undeclared (first use in this function)
+  193 |   if(flag && (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4) == GPIO_PIN_RESET))
+      |      ^~~~
+../Core/Src/stm32wbxx_it.c:193:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/stm32wbxx_it.c:195:17: error: 'debounce' undeclared (first use in this function)
+  195 |                 debounce++;
+      |                 ^~~~~~~~
+make: *** [Core/Src/subdir.mk:61: Core/Src/stm32wbxx_it.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+16:27:33 **** Incremental Build of configuration Debug for project STM_Client ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32wbxx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../STM32_WPAN/App -I../USB_Device/App -I../USB_Device/Target -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Utilities/lpm/tiny_lpm -I../Middlewares/ST/STM32_WPAN -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../Middlewares/ST/STM32_WPAN/utilities -I../Middlewares/ST/STM32_WPAN/ble/core -I../Middlewares/ST/STM32_WPAN/ble/core/auto -I../Middlewares/ST/STM32_WPAN/ble/core/template -I../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Utilities/sequencer -I../Middlewares/ST/STM32_WPAN/ble -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32wbxx_it.d" -MT"Core/Src/stm32wbxx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_it.o"
+arm-none-eabi-gcc -o "STM_Client.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32 BLE\STM_Client\STM32WB5MMGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM_Client.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM_Client.elf
+ 
+arm-none-eabi-size  STM_Client.elf 
+arm-none-eabi-objdump -h -S STM_Client.elf  > "STM_Client.list"
+   text	   data	    bss	    dec	    hex	filename
+  67840	   2609	   9943	  80392	  13a08	STM_Client.elf
 Finished building: default.size.stdout
  
 Finished building: STM_Client.list

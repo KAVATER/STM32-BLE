@@ -38,7 +38,11 @@
 
 	/* Private includes ----------------------------------------------------------*/
 	/* USER CODE BEGIN Includes */
+        #define MAX_SEEN_DEVICES 5
 
+	   uint8_t seen_devices[MAX_SEEN_DEVICES][6];  /* 10 devices, 6 bytes each */
+	   uint8_t seen_count = 0;
+	  uint8_t already_seen = 0;
 	/* USER CODE END Includes */
 
 	/* Private typedef -----------------------------------------------------------*/
@@ -342,6 +346,7 @@
 	  P2PC_APP_Init();
 
 	  /* USER CODE BEGIN APP_BLE_Init_3 */
+	  /* Table to remember already-seen devices */
 
 	  /* USER CODE END APP_BLE_Init_3 */
 
@@ -416,10 +421,7 @@
 					}
 					 else
 					       {
-					                  /* Nothing to connect to (or already connected) - the GAP General
-					                   * Discovery procedure has a fixed ~10s window and stops itself
-					                   * when it completes. Re-arm it so scanning/listing is continuous
-					                   * instead of a single one-shot snapshot. */
+					            /*Rearming GAP to scan and listen to the available ble packets.*/
 					                  UTIL_SEQ_SetTask(1 << CFG_TASK_START_SCAN_ID, CFG_SCH_PRIO_0);
 					       }
 				  }
@@ -572,6 +574,8 @@
 
 				  uint8_t name_len = 0;/* how many name bytes we actually got */
 
+
+
 				  /* USER CODE END EVT_LE_ADVERTISING_REPORT */
 				  le_advertising_event = (hci_le_advertising_report_event_rp0 *) meta_evt->data;
 
@@ -666,15 +670,38 @@
 				  } /* end if ADV_IND */
 
 				  /* USER CODE BEGIN EVT_LE_ADVERTISING_REPORT_2 */
-				  printf("%02X:%02X:%02X:%02X:%02X:%02X | RSSI %4d dBm | %s\r\n",
-							 le_advertising_event->Advertising_Report[0].Address[5],
-							 le_advertising_event->Advertising_Report[0].Address[4],
-							 le_advertising_event->Advertising_Report[0].Address[3],
-							 le_advertising_event->Advertising_Report[0].Address[2],
-							 le_advertising_event->Advertising_Report[0].Address[1],
-							 le_advertising_event->Advertising_Report[0].Address[0],
-							 (int8_t)*(uint8_t*)(adv_report_data + event_data_size),  /* see note below */
-							 (name_len ? local_name : "(no name)"));
+
+
+				  /* Check if we've seen this address before */
+				  already_seen = 0;
+				  for (uint8_t i = 0; i < seen_count; i++)
+				  {
+				      if (memcmp(seen_devices[i],
+				                 le_advertising_event->Advertising_Report[0].Address, 6) == 0)
+				      {
+				          already_seen = 1;
+				          break;
+				      }
+				  }
+				  /* Only print if it's new */
+				  if (!already_seen && seen_count < MAX_SEEN_DEVICES)
+				  {
+				      /* Remember this device */
+				      memcpy(seen_devices[seen_count],
+				             le_advertising_event->Advertising_Report[0].Address, 6);
+				      seen_count++;
+
+				      /* Now print */
+				      printf("%02X:%02X:%02X:%02X:%02X:%02X | RSSI %4d dBm | %s\r\n",
+				      							 le_advertising_event->Advertising_Report[0].Address[5],
+				      							 le_advertising_event->Advertising_Report[0].Address[4],
+				      							 le_advertising_event->Advertising_Report[0].Address[3],
+				      							 le_advertising_event->Advertising_Report[0].Address[2],
+				      							 le_advertising_event->Advertising_Report[0].Address[1],
+				      							 le_advertising_event->Advertising_Report[0].Address[0],
+				      							 (int8_t)*(uint8_t*)(adv_report_data + event_data_size),  /* see note below */
+				      							 (name_len ? local_name : "(no name)"));
+				                 }
 				  /* USER CODE END EVT_LE_ADVERTISING_REPORT_2 */
 				}
 				break;

@@ -60,7 +60,8 @@ extern IPCC_HandleTypeDef hipcc;
 extern RTC_HandleTypeDef hrtc;
 extern UART_HandleTypeDef huart1;
 /* USER CODE BEGIN EV */
-
+extern volatile uint8_t flag ;
+extern volatile uint8_t debounce ;
 /* USER CODE END EV */
 
 /******************************************************************************/
@@ -190,6 +191,10 @@ void SysTick_Handler(void)
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
+  if(flag && (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4) == GPIO_PIN_RESET))
+      	{
+      		debounce++;
+      	}
 
   /* USER CODE END SysTick_IRQn 1 */
 }

@@ -131,11 +131,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
 	  if(flag == 1)
 	  {
-
+		  MX_APPE_Process();
     /* USER CODE END WHILE */
-   MX_APPE_Process();
+
    printf("------------------------------------------\r\n");
    flag = 0;
     /* USER CODE BEGIN 3 */

@@ -140,7 +140,7 @@ int main(void)
 	  {
 		   flag = 0;
 		   debounce = 0;
-	        printf("------------------------------------------\r\n");
+	        printf("------------------ SCANNING -----------------------\r\n");
 
     /* USER CODE END WHILE */
     /* USER CODE BEGIN 3 */

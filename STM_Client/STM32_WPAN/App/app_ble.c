@@ -683,8 +683,8 @@
 				          break;
 				      }
 				  }
-				  /* Only print if it's new */
-				  if (!already_seen && seen_count < MAX_SEEN_DEVICES)
+				  /* Only print if it's new and strength is smaller than -80*/
+				  if (!already_seen && seen_count < MAX_SEEN_DEVICES && (-80 <= (int8_t)*(uint8_t*)(adv_report_data + event_data_size)))
 				  {
 				      /* Remember this device */
 				      memcpy(seen_devices[seen_count],
@@ -699,7 +699,7 @@
 				      							 le_advertising_event->Advertising_Report[0].Address[2],
 				      							 le_advertising_event->Advertising_Report[0].Address[1],
 				      							 le_advertising_event->Advertising_Report[0].Address[0],
-				      							 (int8_t)*(uint8_t*)(adv_report_data + event_data_size),  /* see note below */
+				      							 (int8_t)*(uint8_t*)(adv_report_data + event_data_size),
 				      							 (name_len ? local_name : "(No Name)"));
 				                 }
 				  /* USER CODE END EVT_LE_ADVERTISING_REPORT_2 */

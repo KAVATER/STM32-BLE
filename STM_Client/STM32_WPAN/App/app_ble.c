@@ -700,7 +700,7 @@
 				      							 le_advertising_event->Advertising_Report[0].Address[1],
 				      							 le_advertising_event->Advertising_Report[0].Address[0],
 				      							 (int8_t)*(uint8_t*)(adv_report_data + event_data_size),  /* see note below */
-				      							 (name_len ? local_name : "(no name)"));
+				      							 (name_len ? local_name : "(No Name)"));
 				                 }
 				  /* USER CODE END EVT_LE_ADVERTISING_REPORT_2 */
 				}

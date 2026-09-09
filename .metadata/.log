@@ -97,3 +97,667 @@ COM9
 
 !ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 15:24:01.656
 !MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.807
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.62 GiB / 15.73 GiB (93%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.35 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜    24.00 KiB / 3.03 MiB (1%) - FAT [External]
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇   ● ● ● ● ● ● ● ●
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM10
+COM9
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.808
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.808
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.808
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.808
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.808
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.808
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.808
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.62 GiB / 15.73 GiB (93%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.809
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.35 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.809
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.809
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.809
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.809
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜    24.00 KiB / 3.03 MiB (1%) - FAT [External]
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.809
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.809
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.809
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.810
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.810
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.810
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.810
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.810
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:31:41.810
+!MESSAGE port: COM6
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.541
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.55 GiB / 15.73 GiB (92%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.35 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜    24.00 KiB / 3.03 MiB (1%) - FAT [External]
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇   ● ● ● ● ● ● ● ●
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM10
+COM9
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.542
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.542
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.542
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.542
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.542
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.542
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.542
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.55 GiB / 15.73 GiB (92%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.543
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.35 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.543
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.543
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.543
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.543
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜    24.00 KiB / 3.03 MiB (1%) - FAT [External]
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.543
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.543
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.543
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.543
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.543
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.544
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.544
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:33:57.544
+!MESSAGE port: COM9
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.852
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.71 GiB / 15.73 GiB (93%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM10
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.893
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.894
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.895
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.895
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.897
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.897
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.898
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.71 GiB / 15.73 GiB (93%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.898
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.899
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.900
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.901
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.901
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.902
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.903
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.904
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.905
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.905
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.906
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:29.907
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.798
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.74 GiB / 15.73 GiB (94%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM10
+COM12
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.799
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.800
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.800
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.801
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.801
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.802
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.802
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.74 GiB / 15.73 GiB (94%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.803
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.803
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.804
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.804
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.805
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.805
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.805
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.806
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.806
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.807
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.808
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.808
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:36.809
+!MESSAGE port: COM12
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.223
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.74 GiB / 15.73 GiB (94%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM10
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.224
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.224
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.225
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.225
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.226
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.226
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.227
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.74 GiB / 15.73 GiB (94%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.227
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.228
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.228
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.228
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.229
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.229
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.229
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.230
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.230
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.231
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.231
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:42.231
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.743
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.75 GiB / 15.73 GiB (94%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM10
+COM12
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.743
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.744
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.744
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.745
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.745
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.745
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.746
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.75 GiB / 15.73 GiB (94%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.746
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.747
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.747
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.749
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.749
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.749
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.749
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.750
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.750
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.751
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.751
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.751
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:49.752
+!MESSAGE port: COM12
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.943
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.74 GiB / 15.73 GiB (94%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM10
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.944
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.945
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.946
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.946
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.947
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.947
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.948
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.74 GiB / 15.73 GiB (94%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.949
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.949
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.950
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.951
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.951
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.952
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.952
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.953
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.953
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.954
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.954
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:52.955
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.641
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+                                   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.75 GiB / 15.73 GiB (94%)
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+COM10
+COM12
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.642
+!MESSAGE port:                                    
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.642
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   kushp@KUSH_PC
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.643
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠔⠉⠀⣄⠀⠀⠀⠀⢀⣀⠤⠐⠚⠙   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.643
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠐⠁⠀⠀⠀⠀⢀⡇⠐⠉⠀⠀⠀⠀⠀⠀⠀    Windows 11 Home Single Language (25H2) x86_64
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.643
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠊⠁⠀⠈⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⡀⡐⡌⢆    11th Gen Intel(R) Core(TM) i5-1135G7 (8) @ 2.42 GHz
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.644
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠪⢨⢊⠂   󰚗 0G4GH1 (A00)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.644
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⠀⡀⠀⠀⠀⢀⠠⢄⢄⢔⢖⠲⣤⢤⣄⠀⢪⢘⠌⠀    14.75 GiB / 15.73 GiB (94%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.644
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠁⠠⠠⣄⠀⠐⠃⢈⠀⢢⠡⡣⠫⡅⡯⠛⠚⠹⠕⠀⠀⡘    153.36 GiB / 236.15 GiB (65%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.645
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⣰⡢⠐⠈⡠⡑⠜⢛⢃⠠⠀⠨⠠⠑⢈⠁⡑⠃⠀⠀⠀⠀⠀⡔⠁    103.94 GiB / 156.25 GiB (67%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.646
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠁⠅⢌⠠⠂⠁⠀⠘⢈⠡⠂⠠⠀⠂⠀⠂⠀⠀⠀⠀⠀⠀⣈⣃⠀    197.56 GiB / 461.00 GiB (43%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.646
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⡠⠘⠁⠀⠀⠀⠀⠀⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢒⠝⢌⠢⡑    117.39 GiB / 194.24 GiB (60%) - NTFS
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.647
+!MESSAGE port: ⠀⠀⠀⠀⠀⠄⠂⠀⠀⠀⠀⠀⣀⡼⡕⡪⢋⠕⡡⠣⡩⠪⡑⢍⠫⡫⠫⣖⢯⢦⠵⠜   
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.647
+!MESSAGE port: ⠀⠀⠀⢀⠊⠀⠀⠀⠀⠀⠀⣠⢍⠢⡊⣔⢡⢊⠔⡑⢌⠬⢌⠢⡃⡊⡪⣷⢫⠨⡱⡀   ● ● ● ● ● ● ● ●
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.648
+!MESSAGE port: ⠀⠀⠀⢲⠀⠀⠀⠀⠀⢀⠰⡟⡢⢣⠨⡂⡪⢐⢑⢌⠢⡑⡔⠵⠊⠂⠊⢿⠑⠕⣈⡇
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.649
+!MESSAGE port: ⠀⠀⠀⠘⢤⠀⠀⠀⠀⠈⠀⢳⠨⠢⡑⠌⡢⢑⠰⢐⡵⠚⠁⠀⠀⠀⠀⠈⡄⠀⠈⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.649
+!MESSAGE port: ⠀⠀⠀⠀⠀⠈⠓⠠⢄⡀⡤⠀⠛⣔⡈⠢⢨⠔⠚⠁⠠⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.650
+!MESSAGE port: ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.650
+!MESSAGE port: 
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.650
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-09-09 16:50:54.651
+!MESSAGE port: COM12
